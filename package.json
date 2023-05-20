@@ -1,0 +1,39 @@
+{
+  "name": "griffinjs.com",
+  "version": "1.0.0",
+  "description": "griffins web portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/griffinjoshs/griffinjs.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "digital",
+    "marketing",
+    "digital",
+    "art",
+    "graphic",
+    "design"
+  ],
+  "author": "Griffins Web Services",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/griffinjoshs/griffinjs/issues"
+  },
+  "homepage": "https://github.com/griffinjoshs/griffinjs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.8.0",
+    "request": "^2.88.2"
+  }
+}
